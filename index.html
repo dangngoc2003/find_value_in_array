@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm max</title>
+</head>
+<body>
+<script>
+    let x = [2, 3, 46, 74, 23, 124]
+    let max = x[0];
+    let index = 0;
+    for (let i = 0; i < x.length; i++) {
+        if (x[i] > max) {
+            max = x[i];
+            index = i;
+        }
+    }
+    alert("số lớn nhất là" + max + " at position " + index);
+</script>
+</body>
+</html>
